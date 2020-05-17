@@ -17,7 +17,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   script:
     docker tag docker-to-aws-with-java: latest lucasdiblasi/docker-to-aws-with-java:latest;
-    docker push lucasdiblasi/docker-to-aws-with-java;
+    docker push lucasdiblasi/docker-to-aws-with-java
   on:
     branch: master
 notifications:
